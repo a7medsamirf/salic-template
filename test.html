@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جدول الفاتورة</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: right;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .header-table td {
+            width: 50%;
+        }
+        .line-items-table th, .line-items-table td {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table style=" width:100%; background-color: #F5F5F5; border: 2px solid #ffffff; border-collapse: collapse;font-size: 14px; ">
+        <tbody><tr>
+            <th style="padding: 15px;text-align: left;color: #818181;border: 2px solid #ffffff; border-collapse: collapse;">
+                Absence Type</th>
+            <td style=" padding: 15px; text-align: left;border: 2px solid #ffffff; border-collapse: collapse;color: #333333;font-weight: 600;">
+                Sick Leave </td>
+                <th style="padding: 15px;text-align: left;color: #818181;border: 2px solid #ffffff; border-collapse: collapse;">
+                    Absence Type</th>
+        </tr>
+        <tr>
+            <th style="padding: 15px;text-align: left;color: #818181;border: 2px solid #ffffff; border-collapse: collapse;">
+                Absence Reason</th>
+            <td style=" padding: 15px; text-align: left;border: 2px solid #ffffff; border-collapse: collapse;color: #333333;font-weight: 600;">
+                Emergency surgery on the foot </td>
+        </tr>
+        <tr>
+            <th style="padding: 15px;text-align: left;color: #818181;border: 2px solid #ffffff; border-collapse: collapse;">
+                Start Date</th>
+            <td style=" padding: 15px; text-align: left;border: 2px solid #ffffff; border-collapse: collapse;color: #333333;font-weight: 600;">
+                08:00AM </td>
+        </tr>
+        <tr>
+            <th style="padding: 15px;text-align: left;color: #818181;border: 2px solid #ffffff; border-collapse: collapse;">
+                End Date</th>
+            <td style=" padding: 15px; text-align: left;border: 2px solid #ffffff; border-collapse: collapse;color: #333333;font-weight: 600;">
+                16:00 PM </td>
+        </tr>
+        <tr>
+            <th style="padding: 15px;text-align: left;color: #818181;border: 2px solid #ffffff; border-collapse: collapse;">
+                Duration</th>
+            <td style=" padding: 15px; text-align: left;border: 2px solid #ffffff; border-collapse: collapse;color: #333333;font-weight: 600;">
+                5 Days </td>
+        </tr>
+        <tr>
+            <th style="padding: 15px;text-align: left;color: #818181;border: 2px solid #ffffff; border-collapse: collapse;">
+                Comments</th>
+            <td style=" padding: 15px; text-align: left;border: 2px solid #ffffff; border-collapse: collapse;color: #333333;font-weight: 600;">
+                No comments </td>
+        </tr>
+    </tbody></table>
+    <table class="header-table">
+        <tbody>
+            <tr>
+                <th colspan="1">رقم الفاتورة</th>
+                <td colspan="6">RA 21300000004564</td>
+                <th colspan="1">Invoice Number </th>
+            </tr>
+       
+
+            <tr>
+                <tr>
+                    <th>Line Number</th>
+                    <th>Description</th>
+                    <th>Receipt Number</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Amount</th>
+                    <th>VAT Amount</th>
+                    <th>Total Amount</th>
+                </tr>
+            </tr>  
+        <tr>
+            <td colspan="1">1</td>
+            <td>Governance P&P and digital transformation project</td>
+            <td>87072</td>
+            <td>1</td>
+            <td>362,173.85</td>
+            <td>362,173.85</td>
+            <td>54,326.08</td>
+            <td>416,499.93</td>
+        </tr>
+    </tbody>
+    </table>
+
+
+ <!--        <table class="line-items-table">
+   
+    </table> -->
+</body>
+</html>
